@@ -3,7 +3,7 @@ import React from 'react';
 
 const About: React.FC = () => {
   return (
-    <div className="container mx-auto px-4 py-8 text-white">
+    <div className="container mx-auto px-4 py-8 text-white font-serif">
       <h4 className="text-5xl font-bold mb-4">About me</h4>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="md:col-span-2">
@@ -44,7 +44,7 @@ const About: React.FC = () => {
           </p>
         </div>
         <div className="md:col-span-1">
-          <div className="bg-gray-800 p-4 rounded-lg shadow-md">
+          <div className="bg-secondary p-4 rounded-lg shadow-md">
             <h5 className="text-xl font-semibold mb-2">Your Picture Title</h5>
             <img src="../../public/Avatar.png" alt="Avatar" className="rounded-lg" />
           </div>

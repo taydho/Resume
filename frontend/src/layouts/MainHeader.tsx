@@ -6,9 +6,9 @@ const MainHeader: React.FC = () => {
     <header className="bg-primary border-b border-gray-600 text-white">
       <div />
       <div className="py-5" />
-      <div className="container mx-auto px-4 text-5xl font-normal">Tay Ho</div>
+      <div className="container mx-auto px-4 text-5xl font-bold font-serif">Tay Ho</div>
       <nav className="container mx-auto px-4">
-        <ul className="flex items-center space-x-10">
+        <ul className="flex items-center space-x-10 font-serif">
           <li className="py-2 group">
             <Link to="/" className="hover:text-SilverChalice">
               <span className="border-b-2 border-transparent hover:border-blue-500 transition-all duration-300">
