@@ -1,8 +1,8 @@
 // src/components/Footer.tsx
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faHandshake } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faDiamond, faEnvelope, faHandshake } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin, faTwitter, faGithub} from '@fortawesome/free-brands-svg-icons';
 
 const Footer: React.FC = () => {
   return (
@@ -23,6 +23,9 @@ const Footer: React.FC = () => {
           </a>
           <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
             <FontAwesomeIcon icon={faGithub} className="mr-1" />GitHub
+          </a>
+          <a href="https://taydho.netlify.app" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
+            <FontAwesomeIcon icon={faDiamond}  className="mr-1" />Netlify
           </a>
         </div>
         <p className="text-white text-sm">

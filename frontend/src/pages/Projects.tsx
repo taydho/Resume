@@ -21,7 +21,7 @@ const Projects: React.FC = () => {
         year="2023"
         title="This website"
         description="My corner of the internet."
-        imageUrl="/public/Avatar.png" 
+        imageUrl="/Avatar.png" 
         githubRepo="https://github.com/taydho/Resume"
       />
       </div>

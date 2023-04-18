@@ -46,7 +46,7 @@ const About: React.FC = () => {
         <div className="md:col-span-1">
           <div className="bg-secondary p-4 rounded-lg shadow-md">
             <h5 className="text-xl font-semibold mb-2">Your Picture Title</h5>
-            <img src="../../public/Avatar.png" alt="Avatar" className="rounded-lg" />
+            <img src="/Avatar.png" alt="Avatar" className="rounded-lg" />
           </div>
         </div>
       </div>
