@@ -25,7 +25,15 @@ const Projects: React.FC = () => {
         githubRepo="https://github.com/taydho/Resume"
       />
       </div>
-
+      <div className='h-full'>
+            <Card
+        year="2023"
+        title="Instacart Market Basket Analysis"
+        description="Machine learning project for me CptS_315."
+        imageUrl="/FeaturesImportanceFigure5(Final).png" 
+        githubRepo="https://github.com/taydho/InstaBasket"
+      />
+      </div>
       </div>
     </div>
   );
